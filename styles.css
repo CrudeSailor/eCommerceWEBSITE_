@@ -106,7 +106,7 @@ nav li a{
     font-size: 12px;
 }
 
-.footer_container_imagine{
+.footer_container_image{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -117,4 +117,29 @@ footer{
     left: 0;
     bottom: 0;
     padding: 1rem;
+}
+
+
+.footer_words{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.product_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 60px;
+    padding-top: 40px;
+    margin-left: 20px;    
+}
+
+.product_list{
+    width: 300px;
+    font-size: 13px;
+}
+
+.product_list span{
+    padding-left: 60px;
 }

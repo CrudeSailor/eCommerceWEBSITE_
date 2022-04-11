@@ -1,0 +1,42 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+* {
+    font-family: 'Segoe UI';
+}
+
+
+h1,h2,h3 {
+    color: black
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    background-color: #bf7631;
+}
+main{
+    margin: 1rem auto;
+}
+
+main section {
+    padding-left: 4rem;
+
+}
+
+.logo_image{
+   height: 30px 
+}
+
+.logo_image{
+    height: 30px;
+}

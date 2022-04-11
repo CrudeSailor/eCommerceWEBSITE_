@@ -40,3 +40,13 @@ main section {
 .logo_image{
     height: 30px;
 }
+
+#search{
+    background-image: url("assets/1200px-Google_Magnifying_Glass.svg.png");
+    background-position: right;
+    padding-left: 30px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}

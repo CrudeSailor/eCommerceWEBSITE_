@@ -50,3 +50,71 @@ main section {
     border-radius: 8px;
 
 }
+
+
+.home {
+    background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 85px;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+nav li{
+    display:inline;
+    font-size: medium;
+    margin-right: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black
+}
+
+
+.home h2{
+    color: white;
+    margin-left: 2em;
+}
+
+.homeh2r_container{
+    margin-top: 10em;
+    margin-right: 2em;
+
+}
+
+#hometxt_right{
+    text-align: right;
+    margin-right: 3em;
+
+}
+
+
+.form_container{
+    padding-top: 20px;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.form_container button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer_container_imagine{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    background-color:#bf7631;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+}

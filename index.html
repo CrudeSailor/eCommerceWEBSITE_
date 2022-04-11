@@ -9,16 +9,11 @@
 </head>
 <body>
     <header class="page-header">
-        <h2>CARA CARA<h2>
             <nav>
-                <img src="assets/icons8-pottery-96.png" alt="">
-                    <img src="assets/1200px-Google_Magnifying_Glass.svg.png" alt="">
-                <ul class="'nav">
-                    <h3>
-                        HOME
-                        ABOUT
-                        PRODUCTS
-                        CONTACT
+                <h2>CARA CARA<h2>
+                <img src="assets/icons8-pottery-96.png" alt="pottery">
+                    <img src="assets/1200px-Google_Magnifying_Glass.svg.png" alt="search">
+                <ul class="nav">
                     </h3>
                     <li class="nav item"><a href="">HOME</a><li> 
                     <li class="nav item"><a href="">ABOUT</a><li>
@@ -41,7 +36,7 @@
         <h1>
             ...FROM THE GROUND UP
         </h1>
-        <img src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="">
+        <img src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="clay">
     </section>
     <section class="section" id="ABOUT">
         <h1>
@@ -106,27 +101,28 @@
 
     </section>
     <section class="section" id="CONTACT">
-        <img src="assets/icons8-pottery-96 (1).png" alt="">
-        <img src="assets/icons8-facebook-96 (1).png" alt="">
-        <img src="assets/icons8-instagram-96.png" alt="">
-        <img src="assets/icons8-tiktok-96.png" alt="">
-        <img src="assets/icons8-twitter-96.png" alt="">
-        <img src="assets/icons8-youtube-96.png" alt="">
+        <form action="contact.php" method="post">
+            EMAIL<br>
+            <input type="text" name="cf_email"><br>
+            MESSAGE<br>
+            <textarea name="cf_message"><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
     </section>
 </section>
 
     </main>
+    <footer>
+        <img src="assets/icons8-pottery-96 (1).png" alt="pottery">
+        <img src="assets/icons8-facebook-96 (1).png" alt="facebook">
+        <img src="assets/icons8-instagram-96.png" alt="insta">
+        <img src="assets/icons8-tiktok-96.png" alt="tiktok">
+        <img src="assets/icons8-twitter-96.png" alt="twitter">
+        <img src="assets/icons8-youtube-96.png" alt="youtube">
+    </footer>
 </body>
 </html>
 
 
-<nav>
-   <ul>
-       <li class="nav item"><a href="">ABOUT US</a><li>
-   </ul> 
-</nav>
-<nav>
-    <form>
-        Email:  <input type="'text" name="email" value="example@email.com"><br>
-    </form>
-</nav>
+
